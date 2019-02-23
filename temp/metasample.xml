@@ -1,47 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dcs%2F9901002v1%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
-  <title type="html">ArXiv Query: search_query=&amp;id_list=cs/9901002v1&amp;start=0&amp;max_results=10</title>
-  <id>http://arxiv.org/api/LAqtvQ87DXnwVKQPxU9vIac9J8k</id>
-  <updated>2019-02-22T00:00:00-05:00</updated>
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dcond-mat%2F9906254%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=cond-mat/9906254&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/xTnjGxQGbwi7MhliimgfuR8CJQQ</id>
+  <updated>2019-02-23T00:00:00-05:00</updated>
   <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
   <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
   <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
   <entry>
-    <id>http://arxiv.org/abs/cs/9901002v1</id>
-    <updated>1999-01-10T03:21:23Z</updated>
-    <published>1999-01-10T03:21:23Z</published>
-    <title>KnightCap: A chess program that learns by combining TD(lambda) with
-  game-tree search</title>
-    <summary>  In this paper we present TDLeaf(lambda), a variation on the TD(lambda)
-algorithm that enables it to be used in conjunction with game-tree search. We
-present some experiments in which our chess program ``KnightCap'' used
-TDLeaf(lambda) to learn its evaluation function while playing on the Free
-Internet Chess Server (FICS, fics.onenet.net). The main success we report is
-that KnightCap improved from a 1650 rating to a 2150 rating in just 308 games
-and 3 days of play. As a reference, a rating of 1650 corresponds to about level
-B human play (on a scale from E (1000) to A (1800)), while 2150 is human master
-level. We discuss some of the reasons for this success, principle among them
-being the use of on-line, rather than self-play.
+    <id>http://arxiv.org/abs/cond-mat/9906254v1</id>
+    <updated>1999-06-16T16:27:43Z</updated>
+    <published>1999-06-16T16:27:43Z</published>
+    <title>Percolation of Superconductivity</title>
+    <summary>  In case of superconductors whose electrons attract each other only if they
+are near certain centers, the question arises 'How many such centers are needed
+to make the ground state superconducting?' We shall examine it in the context
+of a random U Hubbard model. In short we study the case where U_i is -|U| and 0
+with probability c and 1-c respectively on a lattice whose sites are labelled i
+using the Gorkov decoupling and the Coherent Potential Approximation (CPA). We
+argue that for this model there is a critical concentration c_0 below which the
+system is not a superconductor.
 </summary>
     <author>
-      <name>Jonathan Baxter</name>
+      <name>G. Litak</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Technical University of Lublin,Poland</arxiv:affiliation>
     </author>
     <author>
-      <name>Andrew Tridgell</name>
+      <name>B. L. Gyorffy</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">University of Bristol, United Kingdom</arxiv:affiliation>
     </author>
-    <author>
-      <name>Lex Weaver</name>
-    </author>
-    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages</arxiv:comment>
-    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">MACHINE LEARNING Proceedings of the Fifteenth International
-  Conference (ICML '98), ISBN 1-55860-556-8, ISSN 1049-1910, Madison WISCONSIN,
-  July 24-27 1998, pages 28-36</arxiv:journal_ref>
-    <link href="http://arxiv.org/abs/cs/9901002v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/cs/9901002v1" rel="related" type="application/pdf"/>
-    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="I.2.6" scheme="http://arxiv.org/schemas/atom"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, 10 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/cond-mat/9906254v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/cond-mat/9906254v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
 </feed>
